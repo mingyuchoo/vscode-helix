@@ -11,6 +11,24 @@ This is a Visual Studio Code implementation of Helix Keybindings and Commands. I
 
 It is a work in progress, feel free to raise issues or contribute on the issue tracker.
 
+## Build code
+
+```bash
+$ npm install
+$ npm run build:prod
+$ npx vsce package
+$ code --install-extension vscode-helix-emulation-0.6.3.vsix
+```
+
+### VSCode에서 확장 설치하기
+
+1. VSCode를 실행합니다
+2. Cmd+Shift+P를 눌러 명령 팔레트를 엽니다
+3. "Install from VSIX"를 입력하고 선택합니다
+4. 생성된 vscode-helix-emulation-0.6.3.vsix 파일을 선택합니다
+5. VSCode를 재시작하라는 메시지가 나타나면 재시작합니다
+
+
 ## Installation
 
 You can find the extension on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jasew.vscode-helix-emulation).
