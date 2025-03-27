@@ -27,7 +27,7 @@
   "browser": "./dist/browser.js",
   "icon": "docs/img/helixLogo.png",
   "engines": {
-    "vscode": "^1.83.1"
+    "vscode": "^1.94.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -319,7 +319,7 @@
   "devDependencies": {
     "@types/http-errors": "^2.0.4",
     "@types/node": "^22.13.14",
-    "@types/vscode": "^1.98.0",
+    "@types/vscode": "^1.94.0",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
     "@typescript-eslint/parser": "^8.28.0",
     "bumpp": "^10.1.0",
