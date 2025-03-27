@@ -62,8 +62,8 @@ export function escapeHandler(vimState: HelixState): void {
       );
     }
   } else if (vimState.mode === Mode.View || vimState.mode === Mode.CommandlineInProgress) {
-      commandLine.clearCommandString(vimState);
-      enterNormalMode(vimState);
+    commandLine.clearCommandString(vimState);
+    enterNormalMode(vimState);
   }
 
   vimState.keysPressed = [];

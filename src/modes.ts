@@ -32,9 +32,8 @@ export function enterSearchMode(helixState: HelixState): void {
 
 export function enterCommandMode(helixState: HelixState): void {
   helixState.mode = Mode.CommandlineInProgress;
-  setModeContext('extension.helixKeymap.commandMode')
+  setModeContext('extension.helixKeymap.commandMode');
   helixState.commandLine.setText('', helixState);
-
 }
 
 export function enterSelectMode(helixState: HelixState): void {
@@ -84,7 +83,7 @@ function setModeContext(key: string) {
     'extension.helixKeymap.selectMode',
     'extension.helixKeymap.viewMode',
     'extension.helixKeymap.disabledMode',
-    'extension.helixKeymap.commandMode'
+    'extension.helixKeymap.commandMode',
   ];
 
   modeKeys.forEach((modeKey) => {

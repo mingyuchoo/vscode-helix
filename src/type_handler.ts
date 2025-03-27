@@ -10,7 +10,7 @@ export function typeHandler(helixState: HelixState, char: string): void {
     helixState.searchState.addChar(helixState, char);
     return;
   }
-  if (helixState.mode == Mode.CommandlineInProgress){
+  if (helixState.mode == Mode.CommandlineInProgress) {
     helixState.commandLine.addChar(helixState, char);
     return;
   }
