@@ -501,5 +501,3 @@ export function decrement(editor: vscode.TextEditor): void {
     });
   });
 }
-
-// 현재 커서가 있는 줄의 바로 아래 줄에 붙여넣는 함수 - 구현은 put_utils/put_after_on_next_line.ts로 이동
