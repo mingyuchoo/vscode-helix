@@ -28,7 +28,6 @@ $ code --install-extension vscode-helix-emulation-0.6.3.vsix
 4. 생성된 vscode-helix-emulation-0.6.3.vsix 파일을 선택합니다
 5. VSCode를 재시작하라는 메시지가 나타나면 재시작합니다
 
-
 ## Installation
 
 You can find the extension on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jasew.vscode-helix-emulation).
