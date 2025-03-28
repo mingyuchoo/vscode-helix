@@ -312,7 +312,7 @@
     "publish": "vsce publish --no-dependencies",
     "vscode:prepublish": "npm run build:prod",
     "lint": "prettier --check --plugin-search-dir=. src && eslint src",
-    "format": "prettier --write --plugin-search-dir=. src",
+    "format": "prettier --write src",
     "typecheck": "tsc --noEmit",
     "release": "bumpp && npm run publish"
   },
